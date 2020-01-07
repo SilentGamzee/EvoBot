@@ -1,0 +1,22 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.css"/>
+	</styles>
+
+	<Panel>
+		<Panel id="Main">
+			<Label id="ScriptsName" text="Fusion"/>
+			<Panel id="Overlay">
+				<Panel id="scripts"/>
+			</Panel>
+			<Button id="Reload">
+				<Label id="ReloadText" text="Reload scripts"/>
+			</Button>
+			<Label id="ScriptLogName" text="Script log"/>
+			<Panel id="ScriptLog"/>
+		</Panel>
+		<Button id="QuestSlideThumb" class="PanelSlideThumb">
+			<Panel class="PanelSlideThumbArrow"/>
+		</Button>
+	</Panel>
+</root>
